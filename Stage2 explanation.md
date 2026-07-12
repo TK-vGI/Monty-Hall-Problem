@@ -1,7 +1,7 @@
 ### 🎯 1. Compute P(D3) using the Law of Total Probability
 We already have:
-* P(C1)=P(C2)=P(C3)=13
-* P(D3∣C1)=12
+* P(C1)=P(C2)=P(C3)=1/3
+* P(D3∣C1)=1/2
 * P(D3∣C2)=1
 * P(D3∣C3)=0
 
