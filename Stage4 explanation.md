@@ -1,13 +1,13 @@
-### 🎯 Step 1 — Prior probabilities P(C1),P(C2),P(C3)
-Before Monty opens any door, the car is equally likely to be behind any of the three doors.
+### 🎯 Step 1 — Prior probabilities P(C1),P(C2),P(C3),P(C4)
+Before Monty opens any door, the car is equally likely to be behind any of the four doors.
 There is no information yet, so:
 P(C1)=P(C2)=P(C3)=P(C4)=1/4
 
-This is pure symmetry: one car, three doors.
+This is pure symmetry: one car, four doors.
 
-### 🎯 Step 2 — Conditional probabilities P(D3∣Cj)
+### 🎯 Step 2 — Conditional probabilities P(D2∣Cj)
 This means:
-“If the car is behind door j, what is the probability that Monty opens door 3?”
+“If the car is behind door j, what is the probability that Monty opens door 2?”
 
 To compute this, we use Monty’s rules:
 1. Monty never opens the door with the car
@@ -30,7 +30,7 @@ So Monty chooses between:
 Both contain goats.
 
 He chooses randomly:
-P(D3∣C1) = 1/3
+P(D2∣C1) = 1/3
 
 ### ⭐ Case 2 — Car behind Door 2 → C2
 You picked Door 1.
@@ -42,7 +42,7 @@ So Monty has two options:
 * Door 4
 
 Thus:
-P(D3∣C2) = 1/2
+P(D2∣C2) = 1/2
 
 ### ⭐ Case 3 — Car behind Door 3 → C3
 You picked Door 1.
@@ -54,7 +54,7 @@ So Monty has two options:
 * Door 4
 
 Thus:
-P(D3∣C3) = 1/2
+P(D2∣C3) = 1/2
 
 ### ⭐ Case 4 — Car behind Door 4 → C4
 You picked Door 1.
@@ -66,7 +66,7 @@ So Monty has two options:
 * Door 3
 
 Thus:
-P(D3∣C4) = 1/2
+P(D2C4) = 1/2
 
 ### ⭐ Final results (reduced fractions)
 Probability	Value
